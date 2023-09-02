@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-collapse,.dropdown-menu{
+    font-weight: 900;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+  }
+  
+  #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  #navbar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .content {
+    padding: 16px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+.btn-outline-orangered{
+    background-color: orangered;
+    color: #fff;
+}
+.btn-outline-orangered:hover{
+    color: rgb(202, 201, 201);
+}
+.text-orangered{
+    font-weight: 900;
+    color: orangered;
+}
+.little-navbar{
+    position: fixed;
+    top: -150px;
+    background: #fff;
+    z-index: 2;
+}
+.nav-pills li a{
+    font-size: 13px;
+    color: black;
+}
+.nav-pills li{
+    padding: 12px;
+}
+.nav-pills li:hover{
+    background-color: rgb(26, 68, 207);
+}
+.nav-pills li:hover a{
+    color: #dddeef;
+}
+::-webkit-scrollbar {
+    width: 6px; /* Width of the entire scrollbar */
+    background: #f1f1f1; /* Background color of the scrollbar track */
+}
+
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(133, 69, 0, 0.9); /* Color of the scrollbar handle */
+    border-radius: 18px; /* Rounded corners of the scrollbar handle */
+}
+
+/* On hover, the scrollbar handle will have a lighter background */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.card-blog{
+    background: linear-gradient(34deg, rgba(255,255,255,0.4), #008080, rgba(0,30,102,0.6));
+    color: black;
+    border-radius: 12px;
+    transform: scale(1);
+    overflow: hidden;
+    margin: 10px;
+}
+.img-blog{
+    padding-top: 20px;
+}
+.img-blog img{
+    cursor: pointer;
+    transition: 0.532423s linear;
+}
+.img-blog:hover img{
+    transform: scale(1.05);
+}
+.content-blog{
+    padding: 20px;
+}
+.recent-blogs{
+    background-color: #efefef;
+    color: rgb(211, 60, 60);
+    border: none;
+    border-top: 4px solid rgba(255, 69, 0, 0.3);;
+    border-radius: 3px;
+    display: block;
+}
+.recent-links a{
+    font-weight: 800;
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    padding-left: 30px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.recent-links a:hover{
+    background: #0001;
+}
+.search-bar {
+    position: relative;
+    box-shadow: 0 0 10px rgba(255, 69, 0, 0.3);
+}
+li{
+    list-style-type: none;
+}
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    pointer-events: none;
+    padding: 10px;
+    cursor: none;
+}
+.bg-light-4000{
+    background-color: #efefef;
+}
+.search-input {
+    padding-left: 30px;
+}
+.fixed-sidebar {
+    position: sticky;
+    top: 20px;
+    height: calc(100vh - 40px);
+    overflow-y: auto;
+}
+#paginationLinks {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 5px;
+}
+
+.page-link {
+    text-decoration: none;
+    color: #333;
+}
+.justify-center{
+    justify-content: center;
+}
+.link-colors{
+    color: red;
+    background-color: #efefef;
+}
+.page-link:hover {
+    color: #fff;
+    background: rgb(211, 60, 60);
+}
+.links-social-media a{
+    color: black;
+    transition: .344232s linear;
+}
+.category-link.active {
+    background-color: #333;
+    color: white;
+}
+.links-social-media a i{
+    color: #fff;
+    padding: 10px;
+    font-size: 18px;
+    transition: .344232s linear;
+}
+.links-social-media a:hover i{
+    transform: scale(1.1);
+    color: rgb(190, 190, 190);
+}
+.text-red-4000{
+    color: rgb(211, 60, 60);
+}
+.bg-dark-ultimate{
+    padding: 10px;
+    background: #0003;
+}
+.links-here a{
+    display: block;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.links-here a:hover{
+    color: rgb(211, 60, 60);
+}
+.nav-pills .nav-item .nav-link{
+    cursor: pointer;
+}
+.footer small{
+    color: white;
+}
+small{
+    color: orangered;
+}
+h4 {
+    font-size: 18px;
+}
+h5 , h2{
+    font-size: 14px;
+}
+a,p{
+    font-size: 12px;
+}
+.carousel-item{
+    height: 100vh;
+    width: 100%;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.img-area-content{
+    height: 400px;
+    width: 100%;
+    border: 1px solid rgb(128, 51, 51);
+    box-shadow: 0 0 10px rgba(141, 26, 26, 0.678);
+}
+.img-area-content img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  .togglerBtn{
+    cursor: pointer;
+  }
+  .togglerBtn h5{
+    font-weight: 900;
+  }
+  /* #banner{
+    background-color: #e2dfdf;
+  } */
+  #banner {
+    position: relative;
+    background-image: url('images/background3.jpg');
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+}
+
+/* Create an overlay pseudo-element */
+#banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(112, 111, 111, 0.664);
+}
